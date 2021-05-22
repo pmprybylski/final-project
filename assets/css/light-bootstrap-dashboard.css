@@ -3041,6 +3041,10 @@ fieldset[disabled] .btn-neutral.active {
     left: 0;
 }
 
+.content .tab {
+    text-indent: 5%;
+}
+
 @media (min-width: 992px) {
     .navbar-form {
         margin-top: 21px;

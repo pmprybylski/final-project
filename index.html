@@ -71,45 +71,55 @@
         <nav class="navbar navbar-default navbar-fixed">
             <div class="container-fluid">
                 <div class="navbar-header">
-                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navigation-example-2">
-                        <span class="sr-only">Toggle navigation</span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                    </button>
                     <a class="navbar-brand">Project Overview</a>
                 </div>
-                
-                <!-- <div class="collapse navbar-collapse"> 
-                    <ul class="nav navbar-nav navbar-right">
-                        <li class="dropdown">
-                              <a href="#" class="dropdown-toggle" data-toggle="dropdown">
-                                    <p>
-										Dropdown
-										<b class="caret"></b>
-									</p>
-                              </a>
-                              <ul class="dropdown-menu">
-                                <li><a href="#">Action</a></li>
-                                <li><a href="#">Another action</a></li>
-                                <li><a href="#">Something</a></li>
-                                <li><a href="#">Another action</a></li>
-                                <li><a href="#">Something</a></li>
-                                <li class="divider"></li>
-                                <li><a href="#">Separated link</a></li>
-                              </ul>
-                        </li>
-						<li class="separator hidden-lg"></li>
-                    </ul>
-                </div> -->
             </div>
         </nav>
 
 
         <div class="content">
             <div class="container-fluid">
+
                 <div class="row">
-                    <div class="col-md-4">
+                    <div class="col-md-12">
+                        <div class="card ">
+                            <div class="header">
+                                <h4 class="title">FDNY Alarm Boxes</h4>
+                                <p class="category">Fire Safety Predictors?</p>
+                            </div>
+                            <div class="content" id="intro">
+                                <a title="John Pilge, CC0, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:Fire_alarm.jpg">
+                                    <img width="512" alt="Fire alarm" src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f0/Fire_alarm.jpg/512px-Fire_alarm.jpg"
+                                    style="float:left; width:100px; height:100px; padding-right:10px">
+                                </a>
+                                <p class="tab">
+                                        Building fires are a major concern of cities across the United States. For the 2021 Fiscal Year, New York City has
+                                    proposed that $48.3 million be allocated to Fire Prevention, which includes education, outreach, and inspections. 
+                                    This represents 2.3% of the Fire Department's budget while the allocation for fire and EMT response is 66% of the budget.
+                                    Targeting the likelihood of fire incidents in a certain area could improve the efficacy of responses in regards to time and
+                                    resources which will reduce damage to structures and lower overall cost. 
+                                </p>
+                                <p class="tab">    
+                                        To do this, we build machine learning algorithms built on data from a wide variety of sources, including fire alarm boxes,
+                                    NYPD complaints, building code violations, and DOB/ECS orders. Data used was accessed from the NYC Open Data website
+                                    and ranged from January 2018 to May of 2021. 
+                                </p>
+                                <p class="tab">
+                                        This project utilizes machine learning to predict fire risk in different NYC bouroughs with a random forest classifier algorithm
+                                    written in Python and trained on data fomcing from several different municipal departments.
+                                </p>
+
+                                <div class="footer">
+                                    <hr>
+                                    <a href="https://council.nyc.gov/budget/wp-content/uploads/sites/54/2020/02/057-FDNY.pdf"> FDNY Fiscal 2021 Preliminary Plan</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <!-- <div class="col-md-4">
                         <div class="card">
 
                             <div class="header">
@@ -117,65 +127,23 @@
                                 <p class="category">Choose a Borough</p>
                             </div>
                             <div class="content">
-                                <div id="chartPreferences" class="ct-chart ct-perfect-fourth"></div>
-
-                                <div class="footer">
-                                    <div class="legend">
-                                        <i class="fa fa-circle text-info"></i> Open
-                                        <i class="fa fa-circle text-danger"></i> Bounce
-                                        <i class="fa fa-circle text-warning"></i> Unsubscribe
-                                    </div>
-                                </div>
+                                
                             </div>
                         </div>
-                    </div>
+                    </div> -->
 
-                    <div class="col-md-8">
+                    <div class="col-md-12">
                         <div class="card">
                             <div class="header">
                                 <h4 class="title">Borough Map</h4>
                                 <p class="category">User Selection (borough name)</p>
                             </div>
                             <div class="content">
-                                <div id="chartHours" class="ct-chart"></div>
-                                <div class="footer">
-                                    <div class="legend">
-                                        <i class="fa fa-circle text-info"></i> Open
-                                        <i class="fa fa-circle text-danger"></i> Click
-                                        <i class="fa fa-circle text-warning"></i> Click Second Time
-                                    </div>
-                                </div>
+                                
                             </div>
                         </div>
                     </div>
-                </div>
-
-
-
-                <div class="row">
-                    <div class="col-md-12">
-                        <div class="card ">
-                            <div class="header">
-                                <h4 class="title">2014 Sales</h4>
-                                <p class="category">All products including Taxes</p>
-                            </div>
-                            <div class="content">
-                                <div id="chartActivity" class="ct-chart"></div>
-
-                                <div class="footer">
-                                    <div class="legend">
-                                        <i class="fa fa-circle text-info"></i> Tesla Model S
-                                        <i class="fa fa-circle text-danger"></i> BMW 5 Series
-                                    </div>
-                                    <hr>
-                                    <div class="stats">
-                                        <i class="fa fa-check"></i> Data information certified
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+                </div>                
             </div>
         </div>
 
@@ -192,7 +160,7 @@
                     </ul>
                 </nav>
                 <p class="copyright pull-right">
-                    &copy; <script>document.write(new Date().getFullYear())</script> <a href="http://www.creative-tim.com">Creative Tim</a>, made with love for a better web
+                    &copy; <script>document.write(new Date().getFullYear())</script> 
                 </p>
             </div>
         </footer>
