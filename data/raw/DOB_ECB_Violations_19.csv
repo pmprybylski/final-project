@@ -1,0 +1,57 @@
+BORO,VIOLATION_TYPE,DOB_VIOLATION_NUMBER
+1,Boilers,78
+1,Construction,14808
+1,Cranes and Derricks,216
+1,Elevators,1636
+1,Local Law,68
+1,Plumbing,80
+1,Quality of Life,493
+1,Signs,243
+1,Site Safety,201
+1,Unknown,1822
+1,Zoning,151
+2,Boilers,67
+2,Construction,8902
+2,Cranes and Derricks,45
+2,Elevators,1420
+2,Local Law,25
+2,Plumbing,26
+2,Quality of Life,263
+2,Signs,113
+2,Site Safety,110
+2,Unknown,785
+2,Zoning,30
+3,Boilers,67
+3,Construction,24934
+3,Cranes and Derricks,148
+3,Elevators,971
+3,Local Law,17
+3,Plumbing,82
+3,Public Assembly,3
+3,Quality of Life,424
+3,Signs,177
+3,Site Safety,587
+3,Unknown,2431
+3,Zoning,359
+4,Boilers,170
+4,Construction,14502
+4,Cranes and Derricks,60
+4,Elevators,760
+4,Local Law,29
+4,Plumbing,55
+4,Quality of Life,282
+4,Signs,207
+4,Site Safety,232
+4,Unknown,1275
+4,Zoning,332
+5,Boilers,1
+5,Construction,2218
+5,Cranes and Derricks,5
+5,Elevators,69
+5,Local Law,3
+5,Plumbing,4
+5,Quality of Life,6
+5,Signs,26
+5,Site Safety,11
+5,Unknown,134
+5,Zoning,29
