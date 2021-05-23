@@ -20,6 +20,8 @@
     <!--  Light Bootstrap Table core CSS    -->
     <link href="assets/css/light-bootstrap-dashboard.css?v=1.4.0" rel="stylesheet"/>
 
+    <script src="https://d3js.org/d3.v6.min.js"></script>
+
 
     <!--  CSS for Demo Purpose, don't include it in your project     -->
     <!-- <link href="assets/css/demo.css" rel="stylesheet" /> -->
@@ -159,9 +161,9 @@
                         </li>
                     </ul>
                 </nav>
-                <p class="copyright pull-right">
+                <!-- <p class="copyright pull-right">
                     &copy; <script>document.write(new Date().getFullYear())</script> 
-                </p>
+                </p> -->
             </div>
         </footer>
 
@@ -182,13 +184,19 @@
     <script src="assets/js/bootstrap-notify.js"></script>
 
     <!--  Google Maps Plugin    -->
-    <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=YOUR_KEY_HERE"></script>
+    <!-- <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=YOUR_KEY_HERE"></script> -->
 
     <!-- Light Bootstrap Table Core javascript and methods for Demo purpose -->
 	<script src="assets/js/light-bootstrap-dashboard.js?v=1.4.0"></script>
 
 	<!-- Light Bootstrap Table DEMO methods, don't include it in your project! -->
 	<script src="assets/js/demo.js"></script>
+
+    <script src="app.js"></script>
+
+    <script type="text/javascript">
+        var apiEndpoint = "https://appfinalprojectv2.azurewebsites.net"; // URL of the REST API in Azure App Service http://<appname>.azurewebsites.net
+    </script>
 
 	<!-- <script type="text/javascript">
     	$(document).ready(function(){
