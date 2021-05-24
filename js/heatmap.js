@@ -16,7 +16,7 @@ L.tileLayer("https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_toke
 function handleSubmit() {
     d3.event.preventDefault();
 }
-d3.json("static/data/mapdata.json", (dataFile) => {
+d3.json("data/mapdata.json", (dataFile) => {
 
     var heatArray = [];
 
