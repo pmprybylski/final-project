@@ -44,8 +44,6 @@ HTML/CSS/Bootstrap<br>
 Pamela
 
 
-# Conclusion
-
 # Contributors
 Pamela Prybylski</strong><br>
 LinkedIn : [https://www.linkedin.com/in/pmprybylski/](https://www.linkedin.com/in/pmprybylski/)<br>
