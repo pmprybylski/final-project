@@ -52,7 +52,7 @@ Keri Hennenfent</strong><br>
 email: []()<br> 
 Github : [https://github.com/khennenf](https://github.com/khennenf)<br>
 
-Kristi Allred</strong><br>
+Kristy Allred</strong><br>
 email: []()<br> 
 LinkedIn : [https://www.linkedin.com/in/kristy-allred-7410a51b8/](https://www.linkedin.com/in/kristy-allred-7410a51b8/)<br>
 
