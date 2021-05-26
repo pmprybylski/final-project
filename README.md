@@ -29,15 +29,18 @@ HTML/CSS/Bootstrap<br>
 
 # Process
 
-## Data Cleaning and Database
-Keri
-## Dashboard
+## Database & Data Retrieval:
+-Used Microsoft Azure SQL Server to host SQL database<br>
+-Created tables from csv file imports<br>
+-Created views for the data needed for maps and charts<br>
+-Used Python Flask API to return JSON results for maps and charts<br>
+
+## Dashboard:
 -The dashboard is comprised of two pages. The basic overview of the project and a page for the machine learning analysis and visuals.<br>
 -It includes a heatmap showing the various street alarm boxes and their frequency of use.<br> 
 -The overview includes graphs of the incident types by borough and by borough and fire-type (structural or non-structural)<br>
 
-
-## Machine Learning
+### Machine Learning
 Pamela
 
 
@@ -49,7 +52,6 @@ email: []()<br>
 LinkedIn : [https://www.linkedin.com/in/pmprybylski/](https://www.linkedin.com/in/pmprybylski/)<br>
 
 Keri Hennenfent</strong><br>
-email: []()<br> 
 Github : [https://github.com/khennenf](https://github.com/khennenf)<br>
 
 Kristy Allred</strong><br>
