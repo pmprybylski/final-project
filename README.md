@@ -48,16 +48,13 @@ Pamela
 
 # Contributors
 Pamela Prybylski</strong><br>
-email: []()<br> 
 LinkedIn : [https://www.linkedin.com/in/pmprybylski/](https://www.linkedin.com/in/pmprybylski/)<br>
 
 Keri Hennenfent</strong><br>
 Github : [https://github.com/khennenf](https://github.com/khennenf)<br>
 
 Kristy Allred</strong><br>
-email: []()<br> 
 LinkedIn : [https://www.linkedin.com/in/kristy-allred-7410a51b8/](https://www.linkedin.com/in/kristy-allred-7410a51b8/)<br>
 
 Hope Neely</strong><br>
-Email: [hope.neely@gmail.com](hope.neely@gmail.com)<br>
 LinkedIn : [https://www.linkedin.com/in/hopeneely/](https://www.linkedin.com/in/hopeneely/)
