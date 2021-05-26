@@ -1,5 +1,5 @@
 // Get Data
-d3.json('data/viewforboroughchart.json').then(incidentdata => {
+d3.json('\static/data/viewforboroughchart.json').then(incidentdata => {
       console.log(incidentdata)
 
 // Declare variables for data
@@ -32,7 +32,7 @@ d3.json('data/viewforboroughchart.json').then(incidentdata => {
     })
 
 // Get data
-    d3.json('data/viewforboroughchart.json').then(incidentdata => {
+    d3.json('\static/data/viewforboroughchart.json').then(incidentdata => {
         console.log(incidentdata)
 
 // Declare variables for data
