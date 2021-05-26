@@ -26,8 +26,7 @@ conn = pyodbc.connect(
     'SERVER=finalprojectdata.database.windows.net;'
     'PORT=1433;'
     'DATABASE=v2-project-data;'
-    'UID=khennenf;'
-    'PWD=Itsgone46!;'
+  
 )
 
 
