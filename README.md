@@ -42,7 +42,7 @@ HTML/CSS/Bootstrap<br>
 
 ### Machine Learning
 -Used jupyter notebooks to process data for evaluation
--Used sklean, to create a Grid Search using train and test splitting
+-Used sklearn, to create a Grid Search using train and test splitting
 -Then applied a random forest algorithm to cross-validate and evaluate correlation and prediction accuracy
 
 
