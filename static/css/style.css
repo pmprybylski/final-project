@@ -13,3 +13,13 @@ html {
   display: block;
   margin-bottom: -.2em;
 }
+
+/* .canvas{
+  width:1000px !important;
+  height:600px !important;
+} */
+
+.canvas{
+  width:100% !important;
+  height:110% !important;
+}

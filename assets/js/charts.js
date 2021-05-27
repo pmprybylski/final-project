@@ -26,8 +26,7 @@ d3.json('\static/data/viewforboroughchart.json').then(incidentdata => {
                               '#c7e9b4',
                         ],
                   }],
-                  
-            }
+            },
         })
     })
 
@@ -105,8 +104,15 @@ d3.json('\static/data/viewforboroughchart.json').then(incidentdata => {
                   ]
                 },
                 options: {
-                  responsive: true,
-                  maintainAspectRatio: false,
+                  layout: {
+                    padding: {
+                      left: 0,
+                      right: 0,
+                      top: 0,
+                      bottom: 0
+                    }
+                  }
+                },
                   scales: {
                     yAxes: [{
                       stacked: true,
@@ -121,9 +127,8 @@ d3.json('\static/data/viewforboroughchart.json').then(incidentdata => {
                       }
                     }]
                   }
-                }
-            });
-        })
+      });
+    })
 
 
 
