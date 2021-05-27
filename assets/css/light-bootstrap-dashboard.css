@@ -1493,7 +1493,7 @@ input:focus {
 .card-plain .image {
     border-radius: 4px;
 }
-
+/* 
 .ct-label {
     fill: rgba(0, 0, 0, 0.4);
     color: rgba(0, 0, 0, 0.4);
@@ -2270,7 +2270,7 @@ input:focus {
 
 .content .tab {
     text-indent: 5%;
-}
+} */
 
 @media (min-width: 992px) {
     .navbar-form {

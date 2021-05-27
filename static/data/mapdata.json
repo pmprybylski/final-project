@@ -1,4 +1,4 @@
-[
+var mapdata = [
     {
     "ALARM_BOX_NUMBER": 5036,
     "Incident_Count": 7,

@@ -12,22 +12,16 @@ L.tileLayer("https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_toke
     accessToken: API_KEY
 }).addTo(myMap);
 
-//Function
-function handleSubmit() {
-    d3.event.preventDefault();
+var heatArray = [];
+
+for (var i = 0; i < mapdata.length; i++) {
+    var lat = mapdata[i].LATITUDE
+    var lon = mapdata[i].LONGITUDE
+    heatArray.push([lat, lon])
 }
-d3.json("static/data/mapdata.json", (dataFile) => {
 
-    var heatArray = [];
+var heat = L.heatLayer(heatArray, {
+    radius: 35,
+    blur: 15
+}).addTo(myMap);
 
-    for (var i = 0; i < dataFile.length; i++) {
-        var lat = dataFile[i].LATITUDE
-        var lon = dataFile[i].LONGITUDE
-        heatArray.push([lat, lon])
-    }
-
-    var heat = L.heatLayer(heatArray, {
-        radius: 35,
-        blur: 15
-    }).addTo(myMap);
-});
