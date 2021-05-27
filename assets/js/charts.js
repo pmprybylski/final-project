@@ -56,7 +56,7 @@ d3.json('\static/data/viewforboroughchart.json').then(incidentdata => {
       var brooklynstructure = incidentdata.filter(incident => incident.INCIDENT_BOROUGH== "BROOKLYN").filter
       (incident => incident.INCIDENT_CLASSIFICATION_GROUP== "Structural Fires").length
 
-// Generate stacked bar chart using Chart.js
+// Generate bar chart using Chart.js
       var ctx = document.getElementById('barchart')
       var barchart = new Chart(ctx, {
             type: 'bar',
@@ -103,32 +103,20 @@ d3.json('\static/data/viewforboroughchart.json').then(incidentdata => {
                     }
                   ]
                 },
-                options: {
-                  layout: {
-                    padding: {
-                      left: 0,
-                      right: 0,
-                      top: 0,
-                      bottom: 0
-                    }
-                  }
-                },
                   scales: {
                     yAxes: [{
-                      stacked: true,
                       ticks: {
                         beginAtZero: true
                       }
                     }],
                     xAxes: [{
-                      stacked: true,
                       ticks: {
                         beginAtZero: true
                       }
                     }]
                   }
-      });
-    })
+                });
+              })
 
 
 

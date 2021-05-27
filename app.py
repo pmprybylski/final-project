@@ -31,9 +31,9 @@ parser.add_argument('viewforboroughchart')
 
 conn = pyodbc.connect(
     'DRIVER={SQL Server};'
-    'SERVER=finalprojectdata.database.windows.net;'
-    'PORT=1433;'
-    'DATABASE=v2-project-data;'
+    'SERVER=############;'
+    'PORT=########;'
+    'DATABASE=#############;'
     'UID=;'
     'PWD='
 )

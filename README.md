@@ -49,7 +49,6 @@ Pamela Prybylski</strong><br>
 LinkedIn : [https://www.linkedin.com/in/pmprybylski/](https://www.linkedin.com/in/pmprybylski/)<br>
 
 Keri Hennenfent</strong><br>
-Github : [https://github.com/khennenf](https://github.com/khennenf)<br>
 
 Kristy Allred</strong><br>
 LinkedIn : [https://www.linkedin.com/in/kristy-allred-7410a51b8/](https://www.linkedin.com/in/kristy-allred-7410a51b8/)<br>
