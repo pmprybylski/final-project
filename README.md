@@ -41,7 +41,10 @@ HTML/CSS/Bootstrap<br>
 -The overview includes graphs of the incident types by borough and by borough and fire-type (structural or non-structural)<br>
 
 ### Machine Learning
-Pamela
+-Used jupyter notebooks to process data for evaluation
+-Used sklean, to create a Grid Search using train and test splitting
+-Then applied a random forest algorithm to cross-validate and evaluate correlation and prediction accuracy
+
 
 
 # Contributors
