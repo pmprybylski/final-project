@@ -1,6 +1,6 @@
 # Public Sector Machine Learning
 
-Machine learning is becoming more common in marketing, business, and medicine. The public sector can certainly benefit from this technology as well. Plenty of data already exists. When properly cleaned machine learning can be applied to predict problems, target resources and protect lives and property. This project serves as an example of how communities can use data to inform prevention and reduce fire burden. Like most data analytics project, wrangling data was the main challenge. This project started with fire dispatch data from [NYC Open Data](https://data.cityofnewyork.us/browse?q=fire+dispatch) from 1/1/2018 through 5/7/2021. As time moved forward, it became clear that the machine learning tools required more diverse data points pertaining to fire risk. After the weighty task of cleaning this cumbersome dataset, NYC Open Data datasets on [housing maintenance code violations](https://data.cityofnewyork.us/Housing-Development/Housing-Maintenance-Code-Violations/wvxf-dwi5), [police complaints](https://data.cityofnewyork.us/Public-Safety/NYPD-Complaint-Data-Historic/qgea-i56i), [environmental control](https://data.cityofnewyork.us/Housing-Development/DOB-ECB-Violations/6bgk-3dad)  and [vacate orders](https://data.cityofnewyork.us/Housing-Development/Order-to-Repair-Vacate-Orders/tb8q-a3ar). In the end, this process proved to be very challenging, but worth the effort in terms of shedding light on opportunities to better public safety outcomes. 
+Machine learning is becoming more common in marketing, business, and medicine. The public sector can certainly benefit from this technology as well. Plenty of data already exists. When data is properly cleaned, machine learning can be applied to predict problems, target resources effectively, and protect lives and property. This project highlights the challenges and opportunities facing communities who use data to inform prevention and reduce fire burden. Like most data analytics projects, wrangling data was the main challenge. This project started with fire dispatch data from [NYC Open Data](https://data.cityofnewyork.us/browse?q=fire+dispatch) between 1/1/2018 and 5/7/2021. As this project moved forward, it became clear that the machine learning tools required more diverse data points pertaining to fire risk. After the weighty task of cleaning this cumbersome dataset, this project required the collection and cleaning of NYC Open Data datasets on [housing maintenance code violations](https://data.cityofnewyork.us/Housing-Development/Housing-Maintenance-Code-Violations/wvxf-dwi5), [police complaints](https://data.cityofnewyork.us/Public-Safety/NYPD-Complaint-Data-Historic/qgea-i56i), [environmental control](https://data.cityofnewyork.us/Housing-Development/DOB-ECB-Violations/6bgk-3dad)  and [vacate orders](https://data.cityofnewyork.us/Housing-Development/Order-to-Repair-Vacate-Orders/tb8q-a3ar). This was no small task. In the end, this process proved to be very challenging, but worth the effort in terms of shedding light on opportunities to improve public safety outcomes. 
 
 # Datasets:
 
@@ -29,33 +29,30 @@ HTML/CSS/Bootstrap<br>
 
 # Process
 
-## Data Cleaning and Database
-Keri
-## Dashboard
+### Database & Data Retrieval:
+-Used Microsoft Azure SQL Server to host SQL database<br>
+-Created tables from csv file imports<br>
+-Created views for the data needed for maps and charts<br>
+-Used Python Flask API to return JSON results for maps and charts<br>
+
+### Dashboard:
 -The dashboard is comprised of two pages. The basic overview of the project and a page for the machine learning analysis and visuals.<br>
 -It includes a heatmap showing the various street alarm boxes and their frequency of use.<br> 
 -The overview includes graphs of the incident types by borough and by borough and fire-type (structural or non-structural)<br>
 
-
-## Machine Learning
+### Machine Learning
 Pamela
 
 
-# Conclusion
-
 # Contributors
 Pamela Prybylski</strong><br>
-email: []()<br> 
 LinkedIn : [https://www.linkedin.com/in/pmprybylski/](https://www.linkedin.com/in/pmprybylski/)<br>
 
 Keri Hennenfent</strong><br>
-email: []()<br> 
 Github : [https://github.com/khennenf](https://github.com/khennenf)<br>
 
 Kristy Allred</strong><br>
-email: []()<br> 
 LinkedIn : [https://www.linkedin.com/in/kristy-allred-7410a51b8/](https://www.linkedin.com/in/kristy-allred-7410a51b8/)<br>
 
 Hope Neely</strong><br>
-Email: [hope.neely@gmail.com](hope.neely@gmail.com)<br>
 LinkedIn : [https://www.linkedin.com/in/hopeneely/](https://www.linkedin.com/in/hopeneely/)
